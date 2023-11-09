@@ -20,32 +20,32 @@
           <p class="font-bold text-xl text-white">PT SARANA DWI SEJAHTERA</p>
         </div>
         <ul class="md:flex hidden items-center gap-20 text-white">
-            <li
-              class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
-            >
-              <a href="./index.html">Home</a>
-            </li>
-            <li
-              class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
-            >
-              <a href="./ourservice.html">Our Service</a>
-            </li>
-            <li
-              class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
-            >
-              <a href="./career.html">Career</a>
-            </li>
-            <li
-              class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
-            >
-              <a href="./about.html">About</a>
-            </li>
-            <li
-              class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
-            >
-              <a href="./contact.html">Contact</a>
-            </li>
-          </ul>
+          <li
+            class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
+          >
+            <a href="./index.html">Home</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
+          >
+            <a href="./ourservice.html">Our Service</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
+          >
+            <a href="./career.html">Career</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
+          >
+            <a href="./about.html">About</a>
+          </li>
+          <li
+            class="cursor-pointer hover:text-primary transition-all border-b-2 border-transparent hover:underline hover:underline-offset-20 pb-2"
+          >
+            <a href="./contact.html">Contact</a>
+          </li>
+        </ul>
         <button
           class="px-10 font-bold py-2 border-2 text-white border-primary rounded-xl"
         >
@@ -55,7 +55,11 @@
     </header>
     <section class="hero-section bg-secondary p-4">
       <div class="flex justify-center items-center gap-20">
-        <img src="./assets/image/women.png" alt="women" />
+        <img
+          src="./assets/image/women.png"
+          alt="women"
+          class="md:inline hidden"
+        />
         <div class="text-white w-400">
           <h1 class="font-bold text-2xl">
             THE BEST<span class="text-primary underline"> MANGEMENT </span>
@@ -73,12 +77,21 @@
             Let's Talk
           </button>
         </div>
-        <img src="./assets/image/man.png" alt="women" />
+        <img
+          src="./assets/image/man.png"
+          alt="women"
+          class="md:inline hidden"
+        />
       </div>
     </section>
+
     <section class="text-white bg-background p-7">
+      <h1 class="font-bold text-2xl text-center text-secondary md:hidden block">
+        HOW<span class="text-primary underline"> OUR SERVICE </span>
+        WORKS??
+      </h1>
       <div>
-        <div class="flex justify-evenly items-end">
+        <div class="flex flex-col md:flex-row justify-evenly items-end">
           <div
             class="flex justify-center items-center rounded-md p-5 bg-secondary flex-col w-235"
           >
@@ -87,10 +100,13 @@
             <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
           <div class="flex flex-col justify-center items-center gap-5">
-            <h1 class="font-bold text-2xl text-center text-secondary">
+            <h1
+              class="font-bold text-2xl text-center text-secondary md:block hidden"
+            >
               HOW<span class="text-primary underline"> OUR SERVICE </span>
               WORKS??
             </h1>
+
             <div
               class="flex justify-center items-center rounded-md p-5 bg-primary flex-col w-235"
             >
@@ -125,7 +141,9 @@
             </div>
           </div>
         </div>
-        <div class="flex justify-around items-center mt-20">
+        <div
+          class="flex justify-around flex-col md:flex-row items-center mt-20"
+        >
           <div
             class="flex justify-center items-center rounded-md p-5 bg-secondary flex-col w-235"
           >
@@ -134,7 +152,7 @@
             <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
           </div>
 
-          <div class="flex gap-20 items-center">
+          <div class="flex gap-20 items-center flex-col md:flex-row">
             <div
               class="flex justify-center items-center rounded-md p-5 bg-secondary flex-col w-235"
             >
