@@ -698,6 +698,10 @@ video {
   width: 150px;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1088,6 +1092,18 @@ video {
 
   .md\:w-480 {
     width: 500px;
+  }
+
+  .md\:w-150 {
+    width: 150px;
+  }
+
+  .md\:w-235 {
+    width: 235px;
+  }
+
+  .md\:w-auto {
+    width: auto;
   }
 
   .md\:grid-cols-2 {
